@@ -1,0 +1,19 @@
+export const GET_PS_LOADING = "GET_PS_LOADING";
+export const GET_PS_SUCCESS = "GET_PS_SUCCESS";
+export const GET_PS_ERROR = "GET_PS_ERROR";
+
+export const GET_PS_BY_ID_LOADING = "GET_PS_BY_ID_LOADING";
+export const GET_PS_BY_ID_SUCCESS = "GET_PS_BY_ID_SUCCESS";
+export const GET_PS_BY_ID_ERROR = "GET_PS_BY_ID_ERROR";
+
+export const DELETE_PS_LOADING = "DELETE_PS_LOADING";
+export const DELETE_PS_SUCCESS = "DELETE_PS_SUCCESS";
+export const DELETE_PS_ERROR = "DELETE_PS_ERROR";
+
+export const ADD_PS_LOADING = "ADD_PS_LOADING";
+export const ADD_PS_SUCCESS = "ADD_PS_SUCCESS";
+export const ADD_PS_ERROR = "ADD_PS_ERROR";
+
+export const UPDATE_PS_LOADING = "UPDATE_PS_LOADING";
+export const UPDATE_PS_SUCCESS = "UPDATE_PS_SUCCESS";
+export const UPDATE_PS_ERROR = "UPDATE_PS_ERROR";
