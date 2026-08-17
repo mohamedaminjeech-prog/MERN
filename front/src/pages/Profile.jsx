@@ -4,12 +4,10 @@ import { useNavigate } from "react-router-dom";
 
 const Profile = () => {
   const user = useSelector((state) => state.AuthReducer.user || {});
-  const firstLetter = user?.name ? user.name.charAt(0).toUpperCase() : "U";
   const dispatch = useDispatch();
   const navigate = useNavigate();
   return (
     <div className="relative isolate bg-slate-50/50 px-6 py-16 sm:py-24 lg:px-8 min-h-screen">
-      {/* Background Decorative Blob */}
       <div
         aria-hidden="true"
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 pointer-events-none"
@@ -35,9 +33,7 @@ const Profile = () => {
 
         <div className="rounded-3xl border border-slate-200/80 bg-white p-8 sm:p-10 shadow-xl shadow-slate-200/40 backdrop-blur-sm">
           <div className="flex flex-col items-center text-center pb-8 border-b border-slate-100">
-            <div className="w-24 h-24 rounded-3xl bg-linear-to-tr from-indigo-600 to-indigo-400 flex items-center justify-center text-white text-4xl font-black shadow-lg shadow-indigo-200/50">
-              {firstLetter}
-            </div>
+            
 
             <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-900 mt-5 capitalize tracking-tight">
               {user?.name || "User"}
