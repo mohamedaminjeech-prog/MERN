@@ -30,3 +30,4 @@ connectDB();
 app.use("/api/games", require("./routes/gameroutes"));
 app.use("/api/ps", require("./routes/psroutes"));
 app.use("/api/auth", require("./routes/authroutes"));
+module.exports=app;
