@@ -1,5 +1,9 @@
 {
   "version": 2,
+  "env": {
+    "DB_URI": "mongodb+srv://mohamedaminjeech_db_user:Fs3xhPL!r86fXqP@cluster0.6vfrt5g.mongodb.net/GameVibe_BD?appName=Cluster0",
+    "SECRET_KEY": "MYsecretkey"
+  },
   "builds": [
     {
       "src": "backend/serves.js",
