@@ -7,13 +7,13 @@
     },
     {
       "src": "front/package.json",
-      "use": "@vercel/vite"
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "backend/index.js"
+      "dest": "backend/serves.js"
     },
     {
       "src": "/(.*)",
